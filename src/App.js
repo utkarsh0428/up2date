@@ -3,12 +3,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {
   HashRouter as Router,
   Switch,
-  Route,
+  // Route,
 } from "react-router-dom";
 
 import NavBarC from "./Components/NavBarC"
-import NewsCardCont from './Components/NewsCardCont';
-import Subscription from './Components/Subscription';
+// import NewsCardCont from './Components/NewsCardCont';
+// import Subscription from './Components/Subscription';
 
 
 function App() {
