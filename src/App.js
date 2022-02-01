@@ -18,13 +18,13 @@ function App() {
     <Router>
       <NavBarC/>
       <Switch>
-        <Route exact path="/"><NewsCardCont category="general"/></Route>
+        {/* <Route exact path="/"><NewsCardCont category="general"/></Route>
         <Route exact path="/business"><NewsCardCont category="business"/></Route>
         <Route exact path="/entertainment"><NewsCardCont category="entertainment"/></Route>
         <Route exact path="/sports"><NewsCardCont category="sports"/></Route>
         <Route exact path="/scienceandtechnology"><NewsCardCont category="science"/></Route>
         <Route exact path="/health"><NewsCardCont category="health"/></Route>
-        <Route exact path="/subscription"><Subscription /></Route>
+        <Route exact path="/subscription"><Subscription /></Route> */}
       </Switch>
     </Router>
     
