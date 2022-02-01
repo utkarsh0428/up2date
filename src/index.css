@@ -8,6 +8,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url("./Components/body.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 code {
@@ -23,7 +26,7 @@ code {
 
 #cardsCont{
 
-  margin: 100px 80px;
+  margin: 50px 80px;
   display: grid;
   grid-template-columns: repeat(auto-fill,minmax(18rem,1fr));
 }
@@ -44,6 +47,7 @@ code {
 #loadingGif{
 
   text-align: center;
+  background-image: url("./Components/body.jpg");
 }
 #subscribPage{
 

@@ -35,7 +35,8 @@ function NewsCardCont(props) {
 
     useEffect(() => {
         getData();
-    }, [condPage]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+    },[condPage]);
 
     console.log(articleOBJ.loading)
 

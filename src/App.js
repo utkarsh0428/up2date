@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
 } from "react-router-dom";
@@ -14,6 +14,7 @@ import Subscription from './Components/Subscription';
 function App() {
   return (
     <>
+    <h1>hi </h1>
     <Router>
       <NavBarC/>
       <Switch>
